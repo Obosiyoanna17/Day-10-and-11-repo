@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 10:Team member Showcase section</title>
+    <link rel="stylesheet" href="team_section.css">
+</head>
+<body>
+    <!-- Team Section -->
+   <section class="Team">
+    <div class="center">
+        <h1><em>Our Team</em></h1>
+    </div>
+    <!-- Team content with individual team member boxes -->
+    <div class="team-content">
+        <!-- Team member box with image, name, role and social icons -->
+        <div class="box" data-bio="Sanjay Richards is a highly organised and motivated team leader with 15 years of experience, leading teams and delivering results. He has a proven record of driving successful team outcomes and fostering collaboration.">
+            <img src="images/images/team img 5.jpg">
+            <h3>Sanjay Richards</h3>
+            <h5>Team Lead</h5>
+            <div class="contact_info">
+               <a href="#">sanjayrichards@gmail.com<br>01235877000</a>
+                 </div>
+        </div>
+
+        <!-- Repeaat the same structure for the other team members -->
+         <div class="box" data-bio="An amazing graphic designer with over 20 years of experience in the design industry.She has a proven track record of success. ">
+            <img src="images/images/team img 6.jpg">
+            <h3>Emily Jobs</h3>
+            <h5>Graphic Designer</h5>
+            <div class="contact_info">
+            <a href="#">emiliejobs@gmail.com, <br>11992456903</a>
+            </div>
+        </div>
+
+    <div class="box" data-bio="Highly motivated and detail-oriented web developer known for his expertise in developing responsive websites and applications.">
+            <img src="images/images/team img 7.jpg">
+            <h3>Tom Cruise</h3>
+            <h5>Web Developer</h5>
+            <div class="contact_info">
+                <a href="#">tommycruise@gmail.com <br>08011956888</a>
+        
+            </div>
+        </div>
+
+        <div class="box" data-bio="A talented and creative designer with over 5 years of experience working with different brands, leading design teams to create insight, human-centered experiences that ensure both user and business needs are met.">
+            <img src="images/images/team img 3.jpg">
+            <h3>Celina Gomez</h3>
+            <h5>UX/UI Designer</h5>
+            <div class="contact_info">
+                <a href="#">celyngomez@gmail.com <br>12990667830</a>
+            </div>
+        </div>
+
+        <div class="box" data-bio="An experienced product manager with a track record of successfully delivering innovative products that exceed customer expectations.">
+            <img src="images/images/team img 4.jpg">
+            <h3>Amelia Jacobs</h3>
+            <h5>Product Manager</h5>
+            <div class="contact_info">
+                <a href="#">ammyjacobs@gmail.com <br>55609945783</a>
+            </div>
+        </div>
+     </div>
+   </section>
+
+   <!-- Modal for detailed information -->
+   <div id="memberModal" class="modal">
+    <div class="modal-content" id="modalContent">
+    <!--  Member details will be dynamically added here-->
+    </div>
+    <span class="close" onclick="closeModal()">&times;</span>
+   </div>
+    <!-- Link to the external Javascript file. -->
+    <script defer src="team_section.js"></script>
+
+</body>
+</html>
